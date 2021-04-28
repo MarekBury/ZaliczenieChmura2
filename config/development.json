@@ -1,0 +1,16 @@
+{
+  "feedmail": {
+    "db": {
+        "url": "mongodb://localhost:27017",
+        "name": "dev",
+        "options": {
+            "useUnifiedTopology": true
+        }
+    },
+    "mailgun": {
+      "domain": "sandboxcdb0dda5bec74442ad2dc9394dfce8f7.mailgun.org",
+      "apiKey": "4b1aa784-b20d1fac"
+    },
+    "port": 8080
+  }
+}
